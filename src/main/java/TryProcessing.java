@@ -24,17 +24,17 @@ public class TryProcessing extends PApplet {
     public void setup() {
     }
 
-    public void draw_initial() {
-        ellipse(circle1, ((float) HEIGHT /5), DIAMETER, DIAMETER);
+    public void draw_initial() { //Just for reference
+        ellipse(circle1, ((float) HEIGHT / 5), DIAMETER, DIAMETER);
         circle1 += 1;
 
-        ellipse(circle2, 2*((float) HEIGHT /5) , DIAMETER, DIAMETER);
+        ellipse(circle2, 2 * ((float) HEIGHT / 5), DIAMETER, DIAMETER);
         circle2 += 2;
 
-        ellipse(circle3, 3*((float) HEIGHT /5), DIAMETER, DIAMETER);
+        ellipse(circle3, 3 * ((float) HEIGHT / 5), DIAMETER, DIAMETER);
         circle3 += 3;
 
-        ellipse(circle4, 4*((float) HEIGHT /5), DIAMETER, DIAMETER);
+        ellipse(circle4, 4 * ((float) HEIGHT / 5), DIAMETER, DIAMETER);
         circle4 += 4;
     }
 
